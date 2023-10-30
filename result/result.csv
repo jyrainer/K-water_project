@@ -1,0 +1,3 @@
+제출번수,   점수,    epoch,     batch,  model_size, 고른기준        , hub               ,(infer)confi   ,(infer)iou ,anns
+2,        0.5,    100,        64,    yolov8l,    best_ckpt.pt   , k_project_v1.0.0  ,0.25          , 0.5        , 7510
+3,        0.5,    100,        64,    yolov8l,    last_ckpt.pt   , k_project_v1.0.0  ,0.25          , 0.5        , 7020
