@@ -1,3 +1,5 @@
-제출번수,   점수,           epoch,     batch,  model_size, 고른기준        , hub               ,(infer)confi   ,(infer)iou ,anns
-2,        0.4615988193,    100,        64,    yolov8l,    best_ckpt.pt   , k_project_v1.0.0  ,0.25          , 0.5        , 7510
-3,        0.4541323359,    100,        64,    yolov8l,    last_ckpt.pt   , k_project_v1.0.0  ,0.25          , 0.5        , 7020
+제출번수,   점수,           epoch,     batch,  model_size, 고른기준        , hub               ,(infer)confi   ,(infer)iou ,anns        , bg
+2,        0.4615988193,    100,        64,    yolov8l,    best_ckpt.pt   , k_project_v1.0.0  ,0.25          , 0.5        , 7510     , x
+3,        0.4541323359,    100,        64,    yolov8l,    last_ckpt.pt   , k_project_v1.0.0  ,0.25          , 0.5        , 7020     , x
+4,                         200,        64,    yolov8x,    best_ckpt.pt   , k_project_v1.1.0  ,0.25          , 0.5        , 7815     , x
+5,      
