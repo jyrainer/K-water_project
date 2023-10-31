@@ -1,13 +1,8 @@
-제출번수,   점수,           epoch,     batch,  model_size, 고른기준        , hub               ,(infer)confi   ,(infer)iou ,anns        , bg
-2,        0.4615988193,    100,        64,    yolov8l,    best_ckpt.pt   , k_project_v1.0.0  ,0.25          , 0.5        , 7510     , x
-3,        0.4541323359,    100,        64,    yolov8l,    last_ckpt.pt   , k_project_v1.0.0  ,0.25          , 0.5        , 7020     , x
-4,        0.4591330499,    200,        64,    yolov8x,    best_ckpt.pt   , k_project_v1.1.0  ,0.25          , 0.5        , 7815     , x
-5,        0.4615988193,    100,        64,    yolov8l,    best_ckpt.pt   , k_project_v1.0.0  ,0.25          , 0.5        , 7510     , x
-6,        0.4591330499,    200,        64,    yolov8x,    last_ckpt.pt   , k_project_v1.1.0  ,0.25          , 0.5        , 7102     , x         
-7,        0.5799715963,    20,         64,    yolov8s,    중도pt         ,  k_project_v1.2.1 ,0.25          , 0.5         , 3916    , O
-8,        0.5596881033,    20,         64,    yolov8x,    중도pt          , k_project_v1.2.0 ,0.25          , 0.5         , 3524    , O
-
-
-
-7,          x모델, bg추가,  1.2.0
-8,          s모델, bg추가,  1.2.1
+제출번수,   점수,           epoch,     batch,  model_size, 고른기준        , hub               ,anns      ,lr0           ,lrf          , bg
+2,        0.4615988193,    100,        64,    yolov8l,    best_ckpt.pt   , k_project_v1.0.0  , 7510     ,0.01          , 0.01        , x
+3,        0.4541323359,    100,        64,    yolov8l,    last_ckpt.pt   , k_project_v1.0.0  , 7020     ,0.01          , 0.01        , x
+4,        0.4591330499,    200,        64,    yolov8x,    best_ckpt.pt   , k_project_v1.1.0  , 7815     ,0.01          , 0.01        , x
+5,        0.4615988193,    100,        64,    yolov8l,    best_ckpt.pt   , k_project_v1.0.0  , 7510     ,0.01          , 0.01        , x
+6,        0.4591330499,    200,        64,    yolov8x,    last_ckpt.pt   , k_project_v1.1.0  , 7102     ,0.01          , 0.01        , x         
+7,        0.5799715963,    20,         64,    yolov8s,    중도pt          , k_project_v1.2.1  , 3916    ,0.01          , 0.01        , O
+8,        0.5596881033,    20,         64,    yolov8x,    중도pt          , k_project_v1.2.0  , 3524    ,0.01          , 0.01        , O
