@@ -2,4 +2,8 @@
 2,        0.4615988193,    100,        64,    yolov8l,    best_ckpt.pt   , k_project_v1.0.0  ,0.25          , 0.5        , 7510     , x
 3,        0.4541323359,    100,        64,    yolov8l,    last_ckpt.pt   , k_project_v1.0.0  ,0.25          , 0.5        , 7020     , x
 4,        0.4591330499,    200,        64,    yolov8x,    best_ckpt.pt   , k_project_v1.1.0  ,0.25          , 0.5        , 7815     , x
-5,      x모델, bg추가.
+5,        (2번이랑 같은데, letter만 미설정. 똑같은점수. 인퍼런스시 letter사용은 무쓸모)
+6,        0.4591330499,    200,        64,    yolov8x,    last_ckpt.pt   , k_project_v1.1.0  ,0.25          , 0.5        ,      , x         
+7,      x모델, bg추가,  1.2.0
+8,      s모델, bg추가,  1.2.1
+
