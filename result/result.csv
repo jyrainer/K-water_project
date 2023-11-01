@@ -14,5 +14,5 @@
 
 
 # 학습중 모델
-k_project_v1.3.0 = k_project_v1.2.1을 pretrained한 모델임. 또한 배경도 99000장에서 750장으로 줄임.(dataset1.0.0) fitness 5500. 롤백
 k_project_v1.3.1 = n모델을 학습. (dataset1.0.0) fitness 5500.
+k_project_v1.2.1.1 = k_project_v1.2.1을 pretrained로한 모델. 1.2.1와 모두 셋팅 동일로 학습지속하는 느낌
