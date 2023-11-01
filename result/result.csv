@@ -1,8 +1,16 @@
-제출번수,   점수,           epoch,     batch,  model_size, 고른기준        , hub               ,anns      ,lr0           ,lrf          , bg
-2,        0.4615988193,    100,        64,    yolov8l,    best_ckpt.pt   , k_project_v1.0.0  , 7510     ,0.01          , 0.01        , x
-3,        0.4541323359,    100,        64,    yolov8l,    last_ckpt.pt   , k_project_v1.0.0  , 7020     ,0.01          , 0.01        , x
-4,        0.4591330499,    200,        64,    yolov8x,    best_ckpt.pt   , k_project_v1.1.0  , 7815     ,0.01          , 0.01        , x
-5,        0.4615988193,    100,        64,    yolov8l,    best_ckpt.pt   , k_project_v1.0.0  , 7510     ,0.01          , 0.01        , x
-6,        0.4591330499,    200,        64,    yolov8x,    last_ckpt.pt   , k_project_v1.1.0  , 7102     ,0.01          , 0.01        , x         
-7,        0.5799715963,    20,         64,    yolov8s,    중도pt          , k_project_v1.2.1  , 3916    ,0.01          , 0.01        , O
-8,        0.5596881033,    20,         64,    yolov8x,    중도pt          , k_project_v1.2.0  , 3524    ,0.01          , 0.01        , O
+제출번수,   점수,           epoch,     batch,  model_size, 고른기준        , hub               ,anns      ,lr0           ,lrf          , bg     ,infer_confi,   fitness
+2,        0.4615988193,    100,        64,      large,    best_ckpt.pt   , k_project_v1.0.0  , 7510     ,0.01          , 0.01        , x    ,0.25           ,0019
+3,        0.4541323359,    100,        64,      large,    last_ckpt.pt   , k_project_v1.0.0  , 7020     ,0.01          , 0.01        , x    ,0.25           ,0019
+4,        0.4591330499,    200,        64,     xlarge,    best_ckpt.pt   , k_project_v1.1.0  , 7815     ,0.01          , 0.01        , x    ,0.25           ,0019
+5,        0.4615988193,    100,        64,      large,    best_ckpt.pt   , k_project_v1.0.0  , 7510     ,0.01          , 0.01        , x    ,0.25           ,0019
+6,        0.4591330499,    200,        64,     xlarge,    last_ckpt.pt   , k_project_v1.1.0  , 7102     ,0.01          , 0.01        , x    ,0.25           ,0019
+7,        0.5799715963,    20,         64,      small,    중도pt          , k_project_v1.2.1  , 3916    ,0.01          , 0.01        , O     ,0.25           ,0019
+8,        0.5596881033,    20,         64,     xlarge,    중도pt          , k_project_v1.2.0  , 3524    ,0.01          , 0.01        , O     ,0.25           ,0019
+9,        0.6792503757,    100,        64,      small,    best_ckpt      , k_project_v1.2.1  , 3045    ,0.01          , 0.01        , O     ,0.25           ,0019
+10,       0.6049514302,    40,         64,     xlarge,    중도pt          , k_project_v1.2.0  , 3524    ,0.01          , 0.01        , O     ,0.25           ,0019 
+11,       0.6457971098,    100,        64,      small,    best_ckpt      , k_project_v1.2.1  , 2578    ,0.01          , 0.01        , O     ,0.35           ,0019
+
+
+
+k_project_v1.3.0 = k_project_v1.2.1을 pretrained한 모델임. 또한 배경도 99000장에서 750장으로 줄임.(dataset1.0.0)
+k_project_v1.3.0 = n모델을 학습. (dataset1.0.0)
