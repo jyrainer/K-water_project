@@ -12,5 +12,6 @@
 
 
 
+# 아래 둘다, 비율 5500으로 함.
 k_project_v1.3.0 = k_project_v1.2.1을 pretrained한 모델임. 또한 배경도 99000장에서 750장으로 줄임.(dataset1.0.0)
 k_project_v1.3.1 = n모델을 학습. (dataset1.0.0)
