@@ -1,0 +1,13 @@
+path: datasets/k_project_waffle_v1.0.0/exports/YOLO
+train: train
+val: val
+test: val
+names:
+    0: "\uB18D\uC5B4"
+    1: "\uBCA0\uC2A4"
+    2: "\uC22D\uC5B4"
+    3: "\uAC15\uC900\uCE58"
+    4: "\uBE14\uB8E8\uAE38"
+    5: "\uC789\uC5B4"
+    6: "\uBD95\uC5B4"
+    7: "\uB204\uCE58"

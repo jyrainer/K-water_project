@@ -1,0 +1,15 @@
+dataset_path: /home/jyp/waffle/datasets/k_project_waffle_v1.0.0/exports/YOLO/data.yaml
+epochs: 200
+batch_size: 64
+image_size:
+- 640
+- 640
+learning_rate: 0.01
+letter_box: true
+pretrained_model: /home/jyp/waffle/hubs/k_project_v1.2.0/weights/best_ckpt_25_backup.pt
+device: '7'
+workers: 2
+seed: 0
+advance_params:
+    patience: 200
+verbose: true
