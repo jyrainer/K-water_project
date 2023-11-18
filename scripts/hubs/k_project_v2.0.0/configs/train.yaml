@@ -1,4 +1,4 @@
-dataset_path: /home/jyp/waffle/datasets/k_project_waffle_v1.0.0/exports/YOLO/data.yaml
+dataset_path: datasets/k_project_waffle_v1.0.0/exports/YOLO/data.yaml
 epochs: 200
 batch_size: 64
 image_size:
