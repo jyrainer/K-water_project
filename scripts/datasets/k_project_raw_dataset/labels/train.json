@@ -1,0 +1,212 @@
+{
+    "images": [
+        {
+            "id": 13128,
+            "width": 640,
+            "height": 480,
+            "file_name": "train_9200.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 131365,
+            "width": 640,
+            "height": 480,
+            "file_name": "train_92000.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 131366,
+            "width": 640,
+            "height": 480,
+            "file_name": "train_92001.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 131367,
+            "width": 640,
+            "height": 480,
+            "file_name": "train_92002.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 131368,
+            "width": 640,
+            "height": 480,
+            "file_name": "train_92003.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 131369,
+            "width": 640,
+            "height": 480,
+            "file_name": "train_92004.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 131370,
+            "width": 640,
+            "height": 480,
+            "file_name": "train_92005.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 131371,
+            "width": 640,
+            "height": 480,
+            "file_name": "train_92006.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 131373,
+            "width": 640,
+            "height": 480,
+            "file_name": "train_92007.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 131375,
+            "width": 640,
+            "height": 480,
+            "file_name": "train_92008.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        },
+        {
+            "id": 138552,
+            "width": 640,
+            "height": 480,
+            "file_name": "train_97000.png",
+            "license": 0,
+            "flickr_url": "",
+            "coco_url": "",
+            "date_captured": 0
+        }
+    ],
+    "annotations": [
+        {
+            "id": 8197,
+            "image_id": 131373,
+            "category_id": 3,
+            "segmentation": [],
+            "area": 30815.84000000001,
+            "bbox": [
+                7.09,
+                220.16,
+                350.18,
+                88.0
+            ],
+            "iscrowd": 0,
+            "attributes": {
+                "occluded": false,
+                "rotation": 0.0
+            }
+        },
+        {
+            "id": 8199,
+            "image_id": 131375,
+            "category_id": 3,
+            "segmentation": [],
+            "area": 44675.820799999994,
+            "bbox": [
+                263.01,
+                293.9,
+                327.92,
+                136.24
+            ],
+            "iscrowd": 0,
+            "attributes": {
+                "occluded": false,
+                "rotation": 0.0
+            }
+        },
+        {
+            "id": 8521,
+            "image_id": 138552,
+            "category_id": 7,
+            "segmentation": [],
+            "area": 41088.399999999994,
+            "bbox": [
+                335.32,
+                281.99,
+                295.6,
+                139.0
+            ],
+            "iscrowd": 0,
+            "attributes": {
+                "occluded": false,
+                "rotation": 0.0
+            }
+        }
+    ],
+    "categories": [
+        {
+            "id": 0,
+            "name": "농어",
+            "supercategory": ""
+        },
+        {
+            "id": 1,
+            "name": "베스",
+            "supercategory": ""
+        },
+        {
+            "id": 2,
+            "name": "숭어",
+            "supercategory": ""
+        },
+        {
+            "id": 3,
+            "name": "강준치",
+            "supercategory": ""
+        },
+        {
+            "id": 4,
+            "name": "블루길",
+            "supercategory": ""
+        },
+        {
+            "id": 5,
+            "name": "잉어",
+            "supercategory": ""
+        },
+        {
+            "id": 6,
+            "name": "붕어",
+            "supercategory": ""
+        },
+        {
+            "id": 7,
+            "name": "누치",
+            "supercategory": ""
+        }
+    ]
+}
